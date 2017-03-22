@@ -43,4 +43,3 @@ task Pester -Depends Init {
         Invoke-Pester -Path $tests -PassThru -EnableExit
     }
 } -description 'Run Pester tests'
-
