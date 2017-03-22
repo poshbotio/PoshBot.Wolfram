@@ -25,7 +25,7 @@ To install the plugin from within PoshBot:
 
 ## Configuration
 
-WolramAlpha requires an API key in order to query against their API.
+WolframAlpha requires an API key in order to query against their API.
 To get an API key, you need to register at [http://products.wolframalpha.com/api/](http://products.wolframalpha.com/api/).
 Once you have the API key, edit your [PoshBot configuration file](http://poshbot.readthedocs.io/en/latest/guides/configuration/]) and add a new hashtable entry under `PluginConfiguration` for `PoshBot.Wolfram` and restart PoshBot. The plugin will read this configuration item and use the API key when querying the WolframAlpha API.
 
