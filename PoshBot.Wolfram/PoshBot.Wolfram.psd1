@@ -95,13 +95,13 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @('PoshBot', 'ChatOps', 'bot', 'WolframAlpha', 'wolfram', 'alpha')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://raw.githubusercontent.com/poshbotio/PoshBot.Wolfram/master/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/poshbotio/PoshBot.Wolfram'
 
         # A URL to an icon representing this module.
         # IconUri = ''
