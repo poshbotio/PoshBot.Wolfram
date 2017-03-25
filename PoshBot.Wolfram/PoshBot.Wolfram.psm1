@@ -1,11 +1,12 @@
 
-function AskWolfram {
+function Invoke-WolframQuery {
     <#
     .SYNOPSIS
         Asks WolframAlpha a question
     .EXAMPLE
         !askwolfram '34th president of the united states'
     #>
+    [PoshBot.BotCommand(CommandName = 'askwolfram')]
     [cmdletbinding()]
     param(
         [PoshBot.FromConfig('ApiKey')]
@@ -21,3 +22,5 @@ function AskWolfram {
     $r = Invoke-RestMethod -Uri $url
     Write-Output $r
 }
+
+Export-ModuleMember -Function 'Invoke-WolframQuery'
